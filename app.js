@@ -80,15 +80,31 @@ $(".buttonTwo").click(function(event) {
         $('.subReset').hide();
         $('.successHide').hide();
         $('.fail').hide();
+        $('html,body').animate({
+            scrollTop: $(".successGif").offset().top
+          },
+          'slow');
+
       } else if (guessed == trackName) {
         $('.success').show();
         $('.subReset').hide();
         $('.successHide').hide();
         $('.fail').hide();
+        $('html,body').animate({
+            scrollTop: $(".successGif").offset().top
+          },
+          'slow');
+
+
       } else if (guessed !== trackName && guessed.length >= 1) {
         $('.fail').show();
         $('.failHide').hide();
         $('.success').hide();
+        $('html,body').animate({
+            scrollTop: $(".failGif").offset().top
+          },
+          'slow');
+
       }
     })
 })

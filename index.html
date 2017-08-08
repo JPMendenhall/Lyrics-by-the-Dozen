@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Source+Code+Pro" rel="stylesheet">
@@ -20,7 +21,7 @@
 </header>
 
 <body class="center">
-  <img src="Lyrics-logo.png" class="lyricsDozen" alt="lyrics by the dozen logo">
+  <img src="Lyrics-logo.png" class="lyricsDozen animated swing" alt="lyrics by the dozen logo">
   <div class="instructions">
     <ul class="collapsible" data-collapsible="accordion">
       <li>
@@ -63,7 +64,7 @@
   <div class="success">
     <button class="waves-effect waves-light btn black songLink success" text="Correct Answer" target="_blank">Correct! Click to View song</button>
     <button class="waves-effect waves-light btn black" text="Play again?" onClick="window.location.reload()">Play Again?</button><br><br>
-    <img src="welldone.gif" alt="Success GIF">
+    <img src="welldone.gif" alt="Success GIF" class="animated zoomInDown successGif">
   </div>
   <!-- Fail -->
   <div class="fail">
@@ -71,7 +72,7 @@
     <button class="waves-effect waves-light btn black submit buttonOne clearInput" text="submit">Try a different track?</button>
     <button class="waves-effect waves-light btn black submit" text="Try a different artist?" onClick="window.location.reload()">Try a different artist?</button>
     <button class="waves-effect waves-light btn blue songLink" text="What's the Answer?" target="_blank">What's the Answer?</button><br>
-    <br><img src="nopeGif.gif" alt="Fail GIF">
+    <br><img src="nopeGif.gif" alt="Fail GIF" class="animated zoomInDown failGif">
   </div>
 
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
