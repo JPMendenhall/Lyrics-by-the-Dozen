@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  padding-bottom: 200px;
+  background: url("mic2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fontMess {
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+#bandName {
+  font-size: 26px;
+}
+
+input {
+  max-width: 350px;
+}
+
+.instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results {
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 28px;
+  max-width: 425px;
+}
+
+.artist {
+  font-family: 'Slackey', cursive;
+  font-size: 44px;
+}
+
+.lyricsDozen {
+  width: 35%;
+  height: 35%;
+}
