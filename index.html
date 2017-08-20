@@ -55,22 +55,24 @@
     <input id="trackGuess" type="text" placeholder="Enter Song Title"></input><br>
     <button id="hideGiveUp" class="waves-effect waves-light btn green submit buttonTwo failHide" text="submit">Submit</button><br><br><br>
     <button class="waves-effect waves-light btn black submit buttonNewTrack giveUp" text="submit">Try a different track?</button>
-    <button class="waves-effect waves-light btn black failHide reload" text="Reset Fields">try a different artist?</button>
-    <button class="waves-effect waves-light btn blue songLink giveUp" text="What's the Answer?" target="_blank">What's the Answer?</button>
-    <button class="waves-effect waves-light btn blue songLink2 giveUp" text="What's the Answer?" target="_blank">What's the Answer?</button>
+    <button class="waves-effect waves-light btn black failHide reload" text="Reset Fields">Try a different artist?</button>
+    <button class="waves-effect waves-light btn blue songLink giveUp" text="What's the Answer?" target="_blank">What's the answer?</button>
+    <button class="waves-effect waves-light btn blue songLink2 giveUp" text="What's the Answer?" target="_blank">What's the answer?</button>
   </form>
   </div>
 
   <!-- Success -->
   <div class="success">
-    <button class="waves-effect waves-light btn black" text="Play again?" onClick="window.location.reload()">Correct! Play Again?</button><br><br>
+    <button class="waves-effect waves-light btn black" text="Play again?" onClick="window.location.reload()">Play Again?</button><br>
+    <p class="correct">Correct!</p><br>
     <img src="welldone.gif" alt="Success GIF" class="animated zoomInDown successGif">
   </div>
   <!-- Fail -->
   <div class="fail">
     <button class="waves-effect waves-light btn green submit buttonTwo" text="resubmit">Resubmit answer</button>
-    <button class="waves-effect waves-light btn black submit" text="Try a different artist?" onClick="window.location.reload()">Try a different artist?</button>
+    <button class="waves-effect waves-light btn black submit" text="Try a different artist?" onClick="window.location.reload()">Try a different artist</button>
     <button class="waves-effect waves-light btn blue songLink" text="What's the Answer?" target="_blank">What's the Answer?</button><br>
+    <p class="correct">I don't think so...</p>
     <br><img src="nopeGif.gif" alt="Fail GIF" class="animated zoomInDown failGif">
   </div>
 

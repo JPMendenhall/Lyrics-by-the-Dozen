@@ -51,6 +51,11 @@ button {
   max-width: 425px;
 }
 
+.correct {
+  font-family: 'Slackey', cursive;
+  font-size: 26px;
+}
+
 .artist {
   font-family: 'Slackey', cursive;
   font-size: 44px;
