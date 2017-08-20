@@ -44,4 +44,5 @@ input {
 .lyricsDozen {
   width: 35%;
   height: 35%;
+  min-width: 300px;
 }
