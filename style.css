@@ -21,6 +21,21 @@ input {
   max-width: 350px;
 }
 
+button {
+  min-width: 195px;
+  margin: 5px 5px;
+}
+
+.successGif {
+  max-width: 400px;
+  width: 100%;
+}
+
+.failGif {
+  max-width: 400px;
+  width: 100%;
+}
+
 .instructions {
   display: flex;
   align-items: center;
